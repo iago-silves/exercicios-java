@@ -1,1 +1,19 @@
-/bin/
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Build directories
+bin/
+target/
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
