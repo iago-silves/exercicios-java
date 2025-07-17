@@ -1,19 +1,37 @@
-# Eclipse project files
+
+# Arquivos de configuração do Eclipse (evitar versionar configs locais)
 .classpath
 .project
 .settings/
 
-# Build directories
+# Diretórios de build (Eclipse, Maven, Gradle)
 bin/
 target/
+out/
 
-# Compiled class files
+# Arquivos compilados Java
 *.class
 
-# Logs
+# Logs e relatórios
 *.log
 
-# OS-specific
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
 
+# IDEs alternativas (se alguém usar IntelliJ junto, por exemplo)
+.idea/
+*.iml
+
+# Arquivos de pacotes
+*.jar
+*.war
+*.ear
+
+# Outras pastas de build comuns
+build/
